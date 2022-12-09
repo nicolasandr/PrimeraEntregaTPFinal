@@ -1,0 +1,32 @@
+[
+  {
+    "id": 83849,
+    "timestamp": 1670543460584,
+    "creationDate": "8/12/2022",
+    "data": {
+      "title": "marinaro",
+      "price": "500",
+      "thumbnail": "https://mercadomio.com.ar/wp-content/uploads/2022/05/Marinaro-Granadina-3litros-600x600.jpg"
+    }
+  },
+  {
+    "id": 130399,
+    "timestamp": 1670543882416,
+    "creationDate": "8/12/2022",
+    "data": {
+      "title": "coca cola",
+      "price": "300",
+      "thumbnail": "https://ardiaprod.vtexassets.com/arquivos/ids/228472/Gaseosa-CocaCola-Sabor-Original-225-Lts-_2.jpg?v=637959903979400000"
+    }
+  },
+  {
+    "id": 88127,
+    "timestamp": 1670543926242,
+    "creationDate": "8/12/2022",
+    "data": {
+      "title": "mirinda",
+      "price": "200",
+      "thumbnail": "https://jumboargentina.vtexassets.com/arquivos/ids/589176/Gaseosa-Mirinda-Manzana-225l-1-239148.jpg?v=637280910252700000"
+    }
+  }
+]
