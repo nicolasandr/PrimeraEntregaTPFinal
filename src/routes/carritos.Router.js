@@ -10,6 +10,12 @@ const ContenedorArchivo = require('../contenedores/ContenedorArchivo')
 const carritoService = new ContenedorArchivocarrito('./db/dbCarritos.json');
 const productService = new ContenedorArchivo('./db/dbProductos.json')
 // Endpoints
+carritosRouter.get('/',(req,res)=>{
+    //logica: traemos todos los carritos
+    carritoService.listarAll().then(carrito=>{
+        res.json(carrito);
+    })
+})
 carritosRouter.post('/', async (req, res) => {
     // logica: crea un carrito y devuelve su id
         let today = Date.now();

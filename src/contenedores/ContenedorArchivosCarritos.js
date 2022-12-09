@@ -22,10 +22,11 @@ class ContenedorArchivosCarritos {
 
     async listarAll() {
         try {
-            const read = await fs.readFile(this.ruta, 'utf-8');
-            return JSON.parse(read);
+            const all = await fs.readFile(this.ruta, 'utf-8');
+            return JSON.parse(all);
         } catch (error) {
-            console.log(error);
+            const errorMsg = 'no se encontraron resultados';
+            return errorMsg;
         }
     }
 
